@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { } from "module";
 
 @Component({
   selector: 'app-alerts',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlertsComponent implements OnInit {
 
+  userName = "Jan"
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  getUserName() {
+    return this.userName
   }
 
 }
